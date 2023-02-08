@@ -2,9 +2,11 @@
 
 *😊😊😊 Show some :heart: by giving the repo a ⭐*
 
-###💠 What is Simple-Book-Store ?<br>
+### 💠 What is Simple-Book-Store ?<br>
 ⭐ It is a command line inventory system for a book store that uses **SQLite** to store the data in a local database file `ebookstore.db`.
-⭐ On running , it allows the user to:   
+
+⭐ On running , it allows the user to:
+
       1. Add books into the inventory
       2. Update the inventory
       3. Delete books
