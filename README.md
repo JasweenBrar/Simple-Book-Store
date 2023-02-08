@@ -1,7 +1,14 @@
 # PROJECT: Simple-Book-Store
 
+*😊😊😊 Show some :heart: by giving the repo a ⭐*
 
-A command line inventory system for a book store that uses SQLite to store the data in a local database file `ebookstore.db`. Once running, the application allows for the user to add books into the inventory, update the inventory, delete books, and search for books in the inventory.  
+###💠 What is Simple-Book-Store ?<br>
+⭐ It is a command line inventory system for a book store that uses **SQLite** to store the data in a local database file `ebookstore.db`.
+⭐ On running , it allows the user to:   
+      1. Add books into the inventory
+      2. Update the inventory
+      3. Delete books
+      4. Search for books in the inventory.  
 
 ## Usage
 
