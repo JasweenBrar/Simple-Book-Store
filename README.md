@@ -18,22 +18,24 @@
 ## 💠 Usage
 
 The application is run by using:
-
 ```sh
 python ebookstore.py
 ```
 
-On first start-up, the database file `ebookstore.db` will be generated containing a few preloaded books:
+## 💠 What does the original database table look like ?
 
-Title|Author|Quantity
----|---|:---:
-A Tale of Two Cities|Charles Dickens|30
-Harry Potter and the Philosopher's Stone|J.K. Rowling|40
-The Lion, THE Witch and the Wardrobe|C.S.Lewis|25
-The Lord of the Rings|J.R.R. Tolkien|37
-Alice in Wonderland|Lewis Carroll|12
+✔️ On first start-up, the database file `ebookstore.db` will be generated containing a few preloaded books:
 
-Once the program is running the user will be presented with a menu. This menu is where the user selects which action they want to do.
+ID|Title|Author|Quantity
+---|---|---|:---:
+7001|A Tale of Two Cities|Mark Twain|30
+7002|Adventures of Tom Sawyer|J.K. Rowling|40
+7003|The Merchant of Venice|Shakespeare|25
+7004|The Lord of the Rings|J.R.R. Tolkien|37
+7005|Alice in Wonderland|Lewis Carroll|12
+
+* Once the program is running the user will be presented with a menu. 
+* This menu is where the user selects which action they want to do.
 
 ```console
 ========MAIN MENU========
@@ -47,7 +49,7 @@ Once the program is running the user will be presented with a menu. This menu is
 Selection:
 ```
 
-While in the menus of the program `-1` can be used to go back to the main menu.
+✔️ While in the menus of the program `-1` can be used to go back to the main menu.
 
 ### 1. Enter book
 
