@@ -118,5 +118,3 @@ This function is similar to the search function, however, it will print out all 
 3004|         The Lord of the Rings          |             J.R.R. Tolkien             | 37|
 3005|          Alice in Wonderland           |             Lewis Carroll              | 12|
 ```
-
-
