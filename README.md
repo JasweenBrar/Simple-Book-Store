@@ -1,5 +1,7 @@
 # PROJECT: Simple-Book-Store
 
+### A simple database project
+
 *😊😊😊 Show some :heart: by giving the repo a ⭐*
 
 ## 💠 What is Simple-Book-Store ?<br>
@@ -13,9 +15,9 @@
       3. Delete books
       4. Search for books in the inventory.  
 
-## Usage
+## 💠 Usage
 
-The application if run by using:
+The application is run by using:
 
 ```sh
 python ebookstore.py
