@@ -1,6 +1,6 @@
 # PROJECT: Simple-Book-Store
 
-*~ A simple database project*
+*~~~ A simple database project*
 
 *😊😊😊 Show some :heart: by giving the repo a ⭐*
 
