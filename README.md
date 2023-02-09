@@ -49,13 +49,27 @@ ID|Title|Author|Quantity
 Selection:
 ```
 
-✔️ While in the menus of the program `-1` can be used to go back to the main menu.
+* While in the menus of the program `-1` can be used to go back to the main menu.
 
-### 1. Enter book
+### 📒📝📗 Feature 1: Enter book 
 
-This function allows the user to add a book directly to the database. The user will be asked to provide the title of the book, the author and the quantity they are adding to the inventory.
+This function allows the user to add a book directly to the database. 
+The user will be asked to provide the title of the book, the author and the quantity they want to add to the inventory.
 
-If the user inputs a book that already exists in the database, they will be prompted whether they would like to update the quantity of that book or return back to the main menu.
+There can be 2 possibilities: 
+      1. The book and the author (combined) does not exist in the database:
+      Then the database gets updated with the entries.
+      
+      {console}
+      
+      Let us use feature 5 to see the inventory (The new book has been added)
+      
+      {console}
+      
+      2. The book already exists in the database:
+      The user will be prompted either to update the quantity of that book or return back to the main menu.
+      
+      {console}
 
 ```console
 ========SELECTION========
@@ -75,9 +89,19 @@ Would you like to update its stock?
 Selection:
 ```
 
-### 2. Update book
+### 📒📝📗 Feature 2: Update book
 
-This function allows the user to edit a book that is currently in the database. This includes the title, author, and quantity. Similarly, if the user inputs a book that already exists, they will be prompted to change the quantity of the original book in the database instead.
+This function allows the user to edit a book that is currently in the database. 
+This includes the title, author, and quantity. 
+      1. If the new title or author is different then the entry corresponding is updated according to the new entries:
+      
+      {console}
+      
+      2. If the new title and author is same as the original title and author then the user is prompted if they want to update the quantity of the book:
+      
+      {console}
+      
+      Similarly, if the user inputs a book that already exists, they will be prompted to change the quantity of the original book in the database instead.
 
 ```console
 =======UPDATE BOOK=======
@@ -101,13 +125,15 @@ Would you like to update its stock?
 Selection:
 ```
 
-### 3. Delete book
+### 📒📝📗 Feature 3: Delete book
 
-This function gives the user the ability to remove a book from the database by giving the books title and author.
+This function allows the user to remove a book from the database by giving the book title and author.
 
-### 4. Search book
+{console}
 
-This function allows the user to input a books title and author, and that book entry in the database will be shown, including its quantity and unique ID.
+### 📒📝📗 Feature 4: Search book
+
+This function allows the user to input a book's title and author, and the corresponding entry in the database will be shown:
 
 ```console
 ======SEARCHING BOOK=====
@@ -119,9 +145,9 @@ Author: charles dickens
 ----|----------------------------------------|----------------------------------------|---|
 ```
 
-### 5. Show inventory
+### 📒📝📗 Feature 5: Show inventory
 
-This function is similar to the search function, however, it will print out all of the books in the database, including their quantity and unique ID.
+This function is similar to the search function, however, it will print out all the entries of books in the database.
 
 ```console
 =ID=|=================Title==================|=================Author=================|Qty|
@@ -132,3 +158,9 @@ This function is similar to the search function, however, it will print out all 
 3004|         The Lord of the Rings          |             J.R.R. Tolkien             | 37|
 3005|          Alice in Wonderland           |             Lewis Carroll              | 12|
 ```
+
+### 📒📝📗 Feature 0: Exit
+
+
+
+
