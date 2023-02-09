@@ -51,7 +51,9 @@ Selection:
 
 * While in the menus of the program `-1` can be used to go back to the main menu.
 
-### 📒📝📗 Feature 1: Enter book 
+## 💠 Functions
+
+### 📒 Feature 1: Enter book 
 
 This function allows the user to add a book directly to the database. 
 The user will be asked to provide the title of the book, the author and the quantity they want to add to the inventory.
@@ -89,7 +91,7 @@ Would you like to update its stock?
 Selection:
 ```
 
-### 📒📝📗 Feature 2: Update book
+### 📒 Feature 2: Update book
 
 This function allows the user to edit a book that is currently in the database. 
 This includes the title, author, and quantity. 
@@ -125,13 +127,13 @@ Would you like to update its stock?
 Selection:
 ```
 
-### 📒📝📗 Feature 3: Delete book
+### 📒 Feature 3: Delete book
 
 This function allows the user to remove a book from the database by giving the book title and author.
 
 {console}
 
-### 📒📝📗 Feature 4: Search book
+### 📒 Feature 4: Search book
 
 This function allows the user to input a book's title and author, and the corresponding entry in the database will be shown:
 
@@ -145,7 +147,7 @@ Author: charles dickens
 ----|----------------------------------------|----------------------------------------|---|
 ```
 
-### 📒📝📗 Feature 5: Show inventory
+### 📒 Feature 5: Show inventory
 
 This function is similar to the search function, however, it will print out all the entries of books in the database.
 
@@ -159,7 +161,7 @@ This function is similar to the search function, however, it will print out all 
 3005|          Alice in Wonderland           |             Lewis Carroll              | 12|
 ```
 
-### 📒📝📗 Feature 0: Exit
+### 📒 Feature 0: Exit
 
 
 
