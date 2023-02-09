@@ -59,6 +59,7 @@ This function allows the user to add a book directly to the database.
 The user will be asked to provide the title of the book, the author and the quantity they want to add to the inventory.
 
 There can be 2 possibilities: 
+
       1. The book and the author (combined) does not exist in the database:
       Then the database gets updated with the entries.
       
