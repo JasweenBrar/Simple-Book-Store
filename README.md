@@ -1,6 +1,6 @@
 # PROJECT: Simple-Book-Store
 
-### A simple database project
+### *~ A simple database project*
 
 *😊😊😊 Show some :heart: by giving the repo a ⭐*
 
@@ -168,7 +168,7 @@ Book updated...
 
 ### 📒 Feature 3: Delete book
 
-This function allows the user to remove a book from the database by giving the book title and author.
+* This function allows the user to remove a book from the database by giving the book title and author.
 
 ```console
 ========SELECTION========
@@ -185,7 +185,7 @@ Deleting...
 
 ### 📒 Feature 4: Search book
 
-This function allows the user to input a book's title and author, and the corresponding entry in the database will be shown:
+* This function allows the user to input a book's title and author, and the corresponding entry in the database will be shown:
 
 ```console
 ========SELECTION========
@@ -211,7 +211,7 @@ Author: R.K. Narayan
 
 ### 📒 Feature 5: Show inventory
 
-This function is similar to the search function, however, it will print out all the entries of books in the database.
+* This function is similar to the search function, however, it will print out all the entries of books in the database.
 
 ```console
 ========SELECTION========
@@ -227,7 +227,7 @@ Selection: 5
 
 ### 📒 Feature 0: Exit
 
-To exit from the main menu:
+* To exit from the main menu:
 
 ```console
 ========SELECTION========
