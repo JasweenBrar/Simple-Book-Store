@@ -63,22 +63,22 @@ There can be 2 possibilities:
       1. The book and the author (combined) does not exist in the database:
       Then the database gets updated with the entries.
       
-      ```console
-      ========SELECTION========
-      Selection: 1
-      ========ENTER BOOK=======
-      Title: Talkative Man
-      Author: R. K. Narayan
-      Quantity: 15
-      =ID=|=================Title==================|=================Author=================|Qty|
-      ----|----------------------------------------|----------------------------------------|---|
-      7001|          A Tale of Two Cities          |            Charles Dickens             | 30|
-      7002|        Adventures of Tom Sawyer        |              J.K. Rowling              | 40|
-      7003|         The Merchant of Venice         |              Shakespeare               | 25|
-      7004|         The Lord of the Rings          |             J.R.R. Tolkien             | 37|
-      7005|          Alice in Wonderland           |             Lewis Carroll              | 12|
-      7006|             Talkative Man              |             R. K. Narayan              | 15|
-      ```
+```console
+========SELECTION========
+Selection: 1
+========ENTER BOOK=======
+Title: Talkative Man
+Author: R. K. Narayan
+Quantity: 15
+=ID=|=================Title==================|=================Author=================|Qty|
+----|----------------------------------------|----------------------------------------|---|
+7001|          A Tale of Two Cities          |            Charles Dickens             | 30|
+7002|        Adventures of Tom Sawyer        |              J.K. Rowling              | 40|
+7003|         The Merchant of Venice         |              Shakespeare               | 25|
+7004|         The Lord of the Rings          |             J.R.R. Tolkien             | 37|
+7005|          Alice in Wonderland           |             Lewis Carroll              | 12|
+7006|             Talkative Man              |             R. K. Narayan              | 15|
+```
       It also displays that the new book has been added in the inventory.
       
       {console}
