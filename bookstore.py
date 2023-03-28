@@ -64,7 +64,7 @@ class BookDB:
 
         #Populates table
         books = [
-            (7001,"A Tale of Two Cities","Mark Twain",30),
+            (7001,"A Tale of Two Cities","Charles Dickens",30),
             (7002,"Adventures of Tom Sawyer","J.K. Rowling",40),
             (7003,"The Merchant of Venice","Shakespeare",25),
             (7004,"The Lord of the Rings","J.R.R. Tolkien",37),
